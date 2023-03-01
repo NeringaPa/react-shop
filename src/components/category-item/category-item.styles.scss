@@ -6,7 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 0.5px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     margin: 0 7.5px 15px;
     overflow: hidden;
   
@@ -43,8 +44,8 @@
     }
   
     .category-body-container {
-      height: 90px;
-      padding: 0 25px;
+      height: 80px;
+      padding: 20px 25px 5px 25px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -56,14 +57,14 @@
   
       h2 {
         font-weight: bold;
-        margin: 0 6px 0;
+        margin: 0 4px 0;
         font-size: 22px;
         color: #4a4a4a;
       }
   
       p {
         font-weight: lighter;
-        font-size: 16px;
+        font-size: 18px;
       }
     }
   }
